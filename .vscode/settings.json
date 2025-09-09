@@ -1,10 +1,9 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "src",               // puts .class in src (as you want)
+    "java.project.outputPath": "src",               
     "java.project.referencedLibraries": [
     "lib/**/*.jar"
     ],
-    // Optional: if you keep Code Runner installed, stop it from hijacking Java runs:
     "code-runner.executorMap": {
     "java": "cd \"$dir\" && javac -cp \"$workspaceRoot/lib/gson-2.11.0.jar:.\" \"$fileName\" && java -cp \"$workspaceRoot/lib/gson-2.11.0.jar:.\" \"$fileNameWithoutExt\""
     },
