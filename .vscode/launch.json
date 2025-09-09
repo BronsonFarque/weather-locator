@@ -5,7 +5,7 @@
         "type": "java",
         "name": "Run SimpleWeather",
         "request": "launch",
-        "mainClass": "SimpleWeather"   // no package line, so just the class name
+        "mainClass": "SimpleWeather"  
     }
     ]
 }
