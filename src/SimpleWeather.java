@@ -69,7 +69,7 @@ public class SimpleWeather {
     
     static JsonObject getJson(String url) throws Exception {
         HttpRequest req = HttpRequest.newBuilder(URI.create(url))
-                .header("User-Agent", "SimpleWeatherApp") // polite User-Agent for public APIs
+                .header("User-Agent", "SimpleWeatherApp") 
                 .GET()
                 .build();
 
